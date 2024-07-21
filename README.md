@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e52a0d25-1129-4664-9567-a744561f4cac/deploy-status)](https://app.netlify.com/sites/blogsdatamiersite/deploys)
+
 # Blog-Factory
 
 Welcome to the **Blog-Factory** repository, a powerful and automated AI-driven platform designed to streamline the process of creating, optimizing, and deploying high-quality blog content. This repository leverages cutting-edge AI technologies to generate thematic content, perform on-page SEO optimization, and deploy blogs with high Domain Rank seamlessly using Netlify.

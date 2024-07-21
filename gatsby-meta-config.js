@@ -18,10 +18,10 @@
 /** @type {MetaConfig} */
 const metaConfig = {
   //TODO: Change the values below according to your project
-  title: "blog-stream",
-  description: "Blog that uploads useful contents.",
-  author: "mingi3314",
-  siteUrl: "https://blog-stream.netlify.app",
+  title: "Blogs | datamner.site",
+  description: "Writing and guiding about things that are matter",
+  author: "dharmendrasha",
+  siteUrl: "https://blog.dataminer.site",
   lang: "en-US",
   utterances: "",
   links: {},

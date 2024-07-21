@@ -10,7 +10,6 @@ on:
       topic:
         description: "Topic for content generation"
         required: true
-        default: "Free Topic"
       enable_langchain_tracing:
         description: "Enable LangChain tracing (true/false)"
         required: false
@@ -18,15 +17,23 @@ on:
 
 jobs:
   generate-content:
+    environment: prod
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+      id-token: write
+      issues: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4.1.7
+        with:
+          lfs: true
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4.0.3
         with:
-          node-version: "18"
+          node-version-file: ".nvmrc"
 
       - name: Install dependencies
         run: yarn install
