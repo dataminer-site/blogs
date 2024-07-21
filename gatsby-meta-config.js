@@ -26,6 +26,7 @@ const metaConfig = {
   utterances: "",
   links: {},
   favicon: "src/images/icon.png",
+  gtagTrackingId: "G-VZ5N46CZL4",
 }
 
 // eslint-disable-next-line no-undef
