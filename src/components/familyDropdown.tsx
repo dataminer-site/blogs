@@ -28,35 +28,20 @@ const FamilyDropdown: React.FC = () => {
 
   return (
     <DropdownContainer ref={dropdownRef}>
-      <DropdownButton onClick={toggleDropdown}>Family Sites</DropdownButton>
+      <DropdownButton onClick={toggleDropdown}>Other Pages</DropdownButton>
       {isOpen && (
         <DropdownMenu>
-          <DropdownItem href="https://stock-trend-follower.netlify.app/">
-            stock-trend-follower
+          <DropdownItem href="https://app.dataminer.site">
+            App
           </DropdownItem>
-          <DropdownItem href="https://shushung.netlify.app/">
-            shushung
+          <DropdownItem href="https://apidoc.dataminer.site">
+            Api Documentation
           </DropdownItem>
-          <DropdownItem href="https://smile-life.netlify.app/">
-            smile-life
+          <DropdownItem href="https://dataminer.site">
+            Homepage
           </DropdownItem>
-          <DropdownItem href="https://midasengine.netlify.app/">
-            midasengine
-          </DropdownItem>
-          <DropdownItem href="https://geum-yung-galadium.netlify.app/">
-            geum-yung-galadium
-          </DropdownItem>
-          <DropdownItem href="https://moneyhabits.netlify.app/">
-            moneyhabits
-          </DropdownItem>
-          <DropdownItem href="https://vintage-vibes-blog.netlify.app/">
-            vintage-vibes-blog
-          </DropdownItem>
-          <DropdownItem href="https://blog-stream.netlify.app/">
-            blog-stream
-          </DropdownItem>
-          <DropdownItem href="https://green-living-blog.netlify.app/">
-            green-living-blog
+          <DropdownItem href="https://api.dataminer.site/">
+            Api
           </DropdownItem>
         </DropdownMenu>
       )}
